@@ -1,4 +1,4 @@
-# SCI-FIT WebApp
+# SCI-FIT SPA WebApp
 Fitness Program Layout Maker / Trainning Sheet
 ![scifit](scifit.PNG)
 
