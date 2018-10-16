@@ -1,6 +1,6 @@
 # SCI-FIT WebApp
 Fitness Program Layout Maker / Trainning Sheet
-![scifit](scifit.png)
+![scifit](scifit.PNG)
 
 - React/Redux Web App
 - Material UI
