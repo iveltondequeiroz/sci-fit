@@ -1,0 +1,83 @@
+table {
+    background-color: #ffffff
+}
+table, th, td {
+    /*border: 1px solid black;*/
+}
+
+th {
+    padding: 10px;
+    text-align: center;
+    bgcolor:#ff00ff;
+}
+
+td {
+	text-align: center;
+}
+
+input[type=number]{
+    width: 40px;
+} 
+
+input {
+	margin-left: 10px;
+	margin-right:10px;
+	
+}
+select {
+	margin-right: 10px;
+}
+
+.hidden { display:none; }
+
+.dayTitle {
+	font-size: 20px;
+	color: #ffffff;
+	margin-top: 60px;
+}
+
+@media all {
+	.page-break	{ display: none; }
+	.notshow { display: none; }
+    
+}
+
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+}
+
+
+
+@media print
+{    
+    .notprint
+    {
+        display: none !important;
+    }
+
+ 	th {
+    	border: 1px solid black;
+	}
+   .showprint
+    {
+        display: inline !important;
+    }
+
+
+    button
+    {
+        display: none !important;
+    }
+
+    @page {
+    	size: auto;   /* auto is the initial value */
+    	margin: 2;   /*this affects the margin in the printer settings */
+		}
+	
+	.page-break	{ display: block; page-break-after: always; }
+	
+	th {
+    border: 1px solid black;
+}
+
+}
